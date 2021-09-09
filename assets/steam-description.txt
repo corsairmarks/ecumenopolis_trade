@@ -12,7 +12,7 @@ Practically any mod, as long as it doesn't entirely remove ecumenopoleis or crea
 
 [h2]Changelog[/h2]
 
-See [url=]Change Notes[/url]
+See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2597129991]Change Notes[/url]
 
 [h2]Source Code[/h2]
 
