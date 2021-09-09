@@ -1,3 +1,21 @@
+[h1]Overview[/h1]
 
+Tired of your city-planets not being top-tier trading hubs? Then this mod is for you! This mod adds an "Ecumenopolis Commercial" colony designation that boosts the build-speed of commerical buildings and residential arcologies by 25% and overall trade value by 20%.  That is the same boost as Urban Worlds, Trade Stations, and Commercial Ring Worlds.
+
+[h1]Changes[/h1]
+
+Adds the [b]col_ecu_trade[/b] colony type.
+
+[h2]Compatibility[/h2]
+
+Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create the same colony type.
+
+[h2]Changelog[/h2]
+
+See [url=]Change Notes[/url]
+
+[h2]Source Code[/h2]
+
+Hosted on [url=https://github.com/corsairmarks/ecumenopolis_trade]GitHub[/url]
 
 [url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]
