@@ -8,11 +8,16 @@ Adds the `col_ecu_trade` colony type.
 
 ## Compatibility
 
+Built for Stellaris version 3.1.* "Lem."
+
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create the same colony type.
+
+Not compatible with achievements.
 
 ## Changelog
 
 * 1.0.0 Initial version
+* 2.0.0 Updated for Stellaris 3.1.* "Lem" - icons are assign differently (and better)
 
 ## Source Code
 
