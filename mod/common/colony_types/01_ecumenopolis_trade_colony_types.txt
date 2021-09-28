@@ -51,6 +51,17 @@ col_ecu_trade = {
 			}
 		}
 		modifier = {
+			add = 2
+			exists = owner
+			owner = {
+				OR = {
+					has_valid_civic = civic_merchant_guilds
+					has_valid_civic = civic_corporate_dominion
+					has_authority = auth_corporate
+				}
+			}
+		}
+		modifier = {
 			add = 4
 			OR = {
 				num_buildings = {
