@@ -5,7 +5,10 @@ col_ecu_trade = {
 	potential = {
 		uses_district_set = city_world
 		exists = owner
-		owner = { is_gestalt = no }
+		owner = {
+			is_gestalt = no
+			is_fallen_empire = no
+		}
 		is_special_colony_type = no
 	}
 
