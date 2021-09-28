@@ -25,11 +25,17 @@ col_ecu_trade = {
 		}
 		modifier = {
 			add = 3
-			num_districts = { type = district_arcology_commercial value >= 4 }
+			num_districts = {
+				type = district_arcology_commercial
+				value >= 2
+			}
 		}
 		modifier = {
 			add = 5
-			num_districts = { type = district_arcology_commercial value >= 6 }
+			num_districts = {
+				type = district_arcology_commercial
+				value >= 4
+			}
 		}
 		modifier = {
 			add = 2
