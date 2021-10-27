@@ -25,6 +25,9 @@ This mod can be safely added to your savegame after the game has started.  Becau
 * 1.0.0 Initial version
 * 2.0.0 Updated for Stellaris 3.1.* "Lem" - icons are assign differently (and better)
 * 2.1.0 Add "Commercial Arcology" district and a colony automation plan
+* 2.2.0 Enhancements based on user feedback
+    * Allow Commercial Arcologies on capital worlds
+    * Move bonus trade value from starbase modules, etc from the district to the colony designation - it was a bit too strong for getting free trade value
 
 ## Source Code
 
