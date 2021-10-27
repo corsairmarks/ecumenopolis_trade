@@ -11,7 +11,10 @@ district_arcology_commercial = {
 		}
 	}
 	allow = {
-		colony_type = col_ecu_trade
+		OR = {
+			colony_type = col_ecu_trade
+			is_capital = yes
+		}
 	}
 	conversion_ratio = 1
 	convert_to = {
