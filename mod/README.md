@@ -27,7 +27,7 @@ This mod can be safely added to your savegame after the game has started.  Becau
 * 2.1.0 Add "Commercial Arcology" district and a colony automation plan
 * 2.2.0 Enhancements based on user feedback
     * Allow Commercial Arcologies on capital worlds
-    * Move bonus trade value from starbase modules, etc from the district to the colony designation - it was a bit too strong for getting free trade value
+    * Move bonus trade value generated in concert with starbase modules, etc from each district to the colony designation - it was a bit too strong for each district to generate loads of trade value regardless of employment
 
 ## Source Code
 
