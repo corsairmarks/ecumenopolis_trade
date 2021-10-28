@@ -196,7 +196,7 @@ col_ecu_trade = {
 				OR = {
 					has_valid_civic = civic_merchant_guilds
 					has_valid_civic = civic_corporate_dominion
-					has_authority = auth_corporate
+					is_megacorp = yes
 				}
 			}
 		}
