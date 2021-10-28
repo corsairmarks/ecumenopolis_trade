@@ -2,13 +2,13 @@
 
 Tired of your city-planets not being top-tier trading hubs? Then this mod is for you! This mod adds an "Ecumenopolis Commercial" colony designation that boosts the build-speed of commercial buildings and commercial arcologies by 25% and overall trade value by 20%.  That is the same trade value boost as Urban Worlds, Trade Stations, and Commercial Ring Worlds.
 
-Because Stellaris version 3.1 added the +20% trade value boost to the base Ecumenopolis colony designation, we went back to the drawing board to double down on the theme of a commercial megacity.  Now choosing to use the Ecumenopolis Commercial colony designation additionally enables construction of the new "Commercial Arcology" district which provides Merchant and Clerk jobs.  If you change the colony designation later, you'll keep any existing Commercial Arcologies but lose some of the Merchant jobs and be unable to build more Commercial Arcologies until the designation is switched back to Ecumenopolis Commercial.
+Because Stellaris version 3.1 added the +20% trade value boost to the base Ecumenopolis colony designation, I went back to the drawing board to double down on the theme of a commercial megacity.  Now choosing to use the Ecumenopolis Commercial colony designation additionally enables construction of the new "Commercial Arcology" district which provides Merchant and Clerk jobs.  The designation also provides a small amount of bonus trade if you meet varying hidden, trade-related conditions - see if you can figure them out.  If you change the colony designation later, you'll keep any existing Commercial Arcologies but lose some of the Merchant jobs and be unable to build more Commercial Arcologies until the designation is switched back to Ecumenopolis Commercial.
 
-Commercial Arcologies provide more Merchant jobs and fewer Clerk jobs as long as the colony designation remains Ecumenopolis Commercial.  But wait, there's more!  Empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's _even_ more!  Megacorps replace some Clerks with Executives and Managers.  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants, Executives, and Managers.
+Commercial Arcologies provide more Merchant jobs and fewer Clerk jobs as long as the colony designation remains Ecumenopolis Commercial.  But wait, there's more!  Empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's [i]even[/i] more!  Megacorps replace some Clerks with Executives and Managers.  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants, Executives, and Managers.
 
 # Changes
 
-Adds the `col_ecu_trade` colony type and a new district `district_arcology_commercial`.
+Adds the `col_ecu_trade` colony type and a new district `district_arcology_commercial`.  Overrides the `col_ecu_mix` colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output) so as to not conflict (mechanics-wise) with the new `col_ecu_trade` type.
 
 ## Localisation
 
@@ -17,9 +17,13 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 
 ## Compatibility
 
-Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create the same colony type.
+Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.
 
 Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
+
+### Recommended Companion Mods
+
+[Trade Districts and Colony Designations Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=) to add upgrade the trade-focused colony designations and districts for habitats and ringworlds.
 
 ### When to Install
 
@@ -34,7 +38,9 @@ This mod can be safely added to your savegame after the game has started.  Becau
     * Allow Commercial Arcologies on empire any capital that is also an ecumenopolis
     * Move bonus trade value generated in concert with starbase modules, etc from each district to the colony designation - it was a bit too strong for each district to generate loads of trade value regardless of employment
 * 2.3.0 Add Russian localisation
-* 2.3.1 Tweak colony automation
+* 2.4.0 Further ecumenopolis refinements
+    * Tweak colony automation
+    * Alter the basic "Ecumenopolis" colony designation to provide different bonuses
 
 ## Source Code
 
