@@ -34,6 +34,7 @@ This mod can be safely added to your savegame after the game has started.  Becau
     * Allow Commercial Arcologies on empire any capital that is also an ecumenopolis
     * Move bonus trade value generated in concert with starbase modules, etc from each district to the colony designation - it was a bit too strong for each district to generate loads of trade value regardless of employment
 * 2.3.0 Add Russian localisation
+* 2.3.1 Tweak colony automation
 
 ## Source Code
 
