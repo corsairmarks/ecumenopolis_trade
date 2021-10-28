@@ -10,6 +10,11 @@ Commercial Arcologies provide more Merchant jobs and fewer Clerk jobs as long as
 
 Adds the `col_ecu_trade` colony type and a new district `district_arcology_commercial`.
 
+## Localisation
+
+* English by corsairmarks (author)
+* Russian (Русский) by [NCTribit](https://steamcommunity.com/id/0418282)
+
 ## Compatibility
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create the same colony type.
@@ -28,6 +33,7 @@ This mod can be safely added to your savegame after the game has started.  Becau
 * 2.2.0 Enhancements based on user feedback
     * Allow Commercial Arcologies on empire any capital that is also an ecumenopolis
     * Move bonus trade value generated in concert with starbase modules, etc from each district to the colony designation - it was a bit too strong for each district to generate loads of trade value regardless of employment
+* 2.3.0 Add Russian localisation
 
 ## Source Code
 
