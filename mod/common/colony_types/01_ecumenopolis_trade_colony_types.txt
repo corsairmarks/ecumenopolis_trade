@@ -1,6 +1,6 @@
 # Ecumenpolis Commercial
 col_ecu_trade = {
-	icon = GFX_colony_type_urban
+	icon = GFX_colony_type_ecu_trade
 
 	potential = {
 		uses_district_set = city_world
