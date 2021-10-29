@@ -41,6 +41,7 @@ This mod can be safely added to your savegame after the game has started.  Becau
 * 2.4.0 Further ecumenopolis refinements
     * Tweak colony automation
     * Alter the basic "Ecumenopolis" colony designation to provide different bonuses
+    * Commercial Arcologies also grant +3 Clerk jobs with the tradition "Interstellar Franchising"
 
 ## Source Code
 
