@@ -40,6 +40,15 @@ district_arcology_commercial = {
 		job_merchant_add = 2
 	}
 	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_interstellar_franchising }
+		}
+		modifier = {
+			job_clerk_add = 3
+		}
+	}
+	triggered_planet_modifier = {
 		potential = { colony_type = col_ecu_trade }
 		modifier = {
 			job_clerk_add = -1
@@ -143,6 +152,7 @@ district_arcology_commercial = {
 				colony_type = col_ecu_trade
 				owner = {
 					is_megacorp = yes
+					NOT = { has_active_tradition = tr_prosperity_interstellar_franchising }
 					has_active_tradition = tr_mercantile_commercial_enterprise
 				}
 			}
