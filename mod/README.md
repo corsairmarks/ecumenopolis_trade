@@ -23,11 +23,19 @@ Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
 
 ### Recommended Companion Mods
 
-[Trade Districts and Colony Designations Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=) to add upgrade the trade-focused colony designations and districts for habitats and ringworlds.
+[Enhanced Trade Districts and Designations](https://steamcommunity.com/sharedfiles/filedetails/?id=2597129991) to upgrade the trade-focused colony designations and districts for habitats and ringworlds.
 
 ### When to Install
 
 This mod can be safely added to your savegame after the game has started.  Because it adds a new district for planets, it is not advisable to remove during gameplay.  Back up your savegame before trying to remove a mod.
+
+### Known Issues
+
+Overwriting a colony type produces an error log.  Expect to see one entry in error.log similar to this:
+
+```
+[00:28:40][game_singleobjectdatabase.h:147]: Object with key: col_ecu_mix already exists
+```
 
 ## Changelog
 
