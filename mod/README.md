@@ -23,7 +23,7 @@ Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
 
 ### Recommended Companion Mods
 
-[Enhanced Trade Districts and Designations](https://steamcommunity.com/sharedfiles/filedetails/?id=2597129991) to upgrade the trade-focused colony designations and districts for habitats and ringworlds.
+[Enhanced Trade Districts and Designations](https://steamcommunity.com/sharedfiles/filedetails/?id=2641081470) to upgrade the trade-focused colony designations and districts for habitats and ringworlds.
 
 ### When to Install
 
