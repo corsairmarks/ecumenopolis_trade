@@ -238,9 +238,12 @@ col_ecu_trade = {
 				type = building_galactic_stock_exchange
 				value = 0
 			}
-			num_buildings = {
-				type = building_nuumismatic_shrine
-				value = 0
+			OR = {
+				owner = { NOT = { has_country_flag = nuumismatic_shrine } }
+				num_buildings = {
+					type = building_nuumismatic_shrine
+					value = 0
+				}
 			}
 			num_districts = {
 				type = district_arcology_commercial
