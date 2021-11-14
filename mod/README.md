@@ -51,6 +51,7 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
     * Alter the basic "Ecumenopolis" colony designation to provide different bonuses
     * Commercial Arcologies also grant +3 Clerk jobs with the tradition "Interstellar Franchising"
 * 2.4.1 Improved colony automation plan
+* 2.4.2 Adjust colony designation weighting
 
 ## Source Code
 

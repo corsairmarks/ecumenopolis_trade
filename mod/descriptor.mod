@@ -4,7 +4,7 @@ tags={
 	"Economy"
 	"Gameplay"
 }
-version="2.4.1"
+version="2.4.2"
 picture="thumbnail.png"
 supported_version="3.1.*"
 remote_file_id="2597129991"
