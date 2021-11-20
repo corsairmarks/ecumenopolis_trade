@@ -21,7 +21,7 @@ Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcolog
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.
 
-Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
+Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
 
 [h3]Recommended Companion Mods[/h3]
 

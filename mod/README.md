@@ -19,7 +19,7 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.
 
-Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
+Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
 
 ### Recommended Companion Mods
 
@@ -40,7 +40,7 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
 ## Changelog
 
 * 1.0.0 Initial version
-* 2.0.0 Updated for Stellaris 3.1.* "Lem" - icons are assign differently (and better)
+* 2.0.0 Updated for Stellaris 3.1 "Lem" - icons are assign differently (and better)
 * 2.1.0 Add "Commercial Arcology" district and a colony automation plan
 * 2.2.0 Enhancements based on user feedback
     * Allow Commercial Arcologies on empire any capital that is also an ecumenopolis
@@ -52,6 +52,7 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
     * Commercial Arcologies also grant +3 Clerk jobs with the tradition "Interstellar Franchising"
 * 2.4.1 Improved colony automation plan
 * 2.4.2 Adjust colony designation weighting
+* 2.5.0 Updated for Stellaris 3.2 "Herbert" - no changes
 
 ## Source Code
 
