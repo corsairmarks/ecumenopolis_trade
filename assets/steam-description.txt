@@ -14,6 +14,7 @@ Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcolog
 
 [list]
 [*]English by corsairmarks (author)
+[*]Polish (Polskie) by [url=https://steamcommunity.com/profiles/76561198440146604]Gatzek[/url]
 [*]Russian (Русский) by [url=https://steamcommunity.com/id/0418282]NCTribit[/url]
 [/list]
 

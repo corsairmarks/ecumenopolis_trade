@@ -13,6 +13,7 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 ## Localisation
 
 * English by corsairmarks (author)
+* Polish (Polskie) by [Gatzek](https://steamcommunity.com/profiles/76561198440146604)
 * Russian (Русский) by [NCTribit](https://steamcommunity.com/id/0418282)
 
 ## Compatibility
@@ -53,6 +54,9 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
 * 2.4.1 Improved colony automation plan
 * 2.4.2 Adjust colony designation weighting
 * 2.5.0 Updated for Stellaris 3.2 "Herbert" - no changes
+* 2.6.0 Add Commercial Arcologies to Planetary Diversity's Palace and Corporate Ecumenopoleis
+    * Special thanks to Gatzek for help with the correct special `district_set`s
+    * Add Polish localisation by Gatzek
 
 ## Source Code
 
