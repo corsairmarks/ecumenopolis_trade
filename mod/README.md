@@ -18,7 +18,7 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 
 ## Compatibility
 
-Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.
+Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
 
 Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
 
