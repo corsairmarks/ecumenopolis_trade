@@ -11,13 +11,11 @@ Commercial Arcologies provide more Merchant jobs and fewer Clerk jobs as long as
 Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcology_commercial[/b].  Overrides the [b]col_ecu_mix[/b] colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output) so as to not conflict (mechanics-wise) with the new [b]col_ecu_trade[/b] type.
 
 [h2]Localisation[/h2]
-
 [list]
 [*]English by corsairmarks (author)
 [*]Polish (Polskie) by [url=https://steamcommunity.com/profiles/76561198440146604]Gatzek[/url]
 [*]Russian (Русский) by [url=https://steamcommunity.com/id/0418282]NCTribit[/url]
 [/list]
-
 [h2]Compatibility[/h2]
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
@@ -35,11 +33,9 @@ This mod can be safely added to your savegame after the game has started.  Becau
 [h3]Known Issues[/h3]
 
 Overwriting a colony type produces an error log.  Expect to see one entry in error.log similar to this:
-
 [code]
 [00:28:40][game_singleobjectdatabase.h:147]: Object with key: col_ecu_mix already exists
 [/code]
-
 [h2]Changelog[/h2]
 
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2597129991]Change Notes[/url]
