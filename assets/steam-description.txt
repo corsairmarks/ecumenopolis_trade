@@ -1,13 +1,14 @@
 [h1]Overview[/h1]
-
 Tired of your city-planets not being top-tier trading hubs? Then this mod is for you! This mod adds an "Ecumenopolis Commercial" colony designation that boosts the build-speed of commercial buildings and commercial arcologies by 25% and overall trade value by 20%.  That is the same trade value boost as Urban Worlds, Trade Stations, and Commercial Ring Worlds.
 
 Because Stellaris version 3.1 added the +20% trade value boost to the base Ecumenopolis colony designation, I went back to the drawing board to double down on the theme of a commercial megacity.  Now choosing to use the Ecumenopolis Commercial colony designation additionally enables construction of the new "Commercial Arcology" district which provides Merchant and Clerk jobs.  The designation also provides a small amount of bonus trade if you meet varying hidden, trade-related conditions - see if you can figure them out.  If you change the colony designation later, you'll keep any existing Commercial Arcologies but lose some of the Merchant jobs and be unable to build more Commercial Arcologies until the designation is switched back to Ecumenopolis Commercial.
 
 Commercial Arcologies provide more Merchant jobs and fewer Clerk jobs as long as the colony designation remains Ecumenopolis Commercial.  But wait, there's more!  Empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's [i]even[/i] more!  Megacorps replace some Clerks with Executives and Managers.  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants, Executives, and Managers.
 
-[h1]Changes[/h1]
+[h2]Update for Stellaris 3.3 "Libra"[/h2]
+With the introduction of Administrative Arcologies (and Ecclesiastical Arcologies) in Stellaris version 3.3 "Libra," it is no longer possible to view Commercial Arcologies without a planetview-enhancing UI mod.  See below for three recommendations.  Because of this, it has also been removed from my modpack Subtle Polish.
 
+[h1]Changes[/h1]
 Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcology_commercial[/b].  Overrides the [b]col_ecu_mix[/b] colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output) so as to not conflict (mechanics-wise) with the new [b]col_ecu_trade[/b] type.
 
 [h2]Localisation[/h2]
@@ -17,31 +18,31 @@ Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcolog
 [*]Russian (Русский) by [url=https://steamcommunity.com/id/0418282]NCTribit[/url]
 [/list]
 [h2]Compatibility[/h2]
-
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
 
-Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.3.* "Libra."  Not compatible with achievements.
+
+[h3]Removed from "Subtle Polish"[/h3]
+This mod has been removed from my modpack [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) because as of Stellaris version 3.3 "Libra" it requires users to add a UI mod in order to see the expanded districts.  It it otherwise fully compatible.
+
+[h3]Required Dependency Mods[/h3]
+In order to see and interact with the new commercial arcology district, it is necessary to use a UI mod that allows more districts to be visible.  [UI Overhaul Dynamic](https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360) and [Bigger Planet View](https://steamcommunity.com/sharedfiles/filedetails/?id=1587178040) are two possible options.  If you play Stellaris on a lower resolution (such as 1366x768 or 1600x900) there are not many mod offerings that show many districts without making the planetview too large, so I created [Basic Planetview: More Districts](https://steamcommunity.com/sharedfiles/filedetails/?id=2654043078) to solve that issue.
 
 [h3]Recommended Companion Mods[/h3]
-
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2641081470]Enhanced Trade Districts and Designations[/url] to upgrade the trade-focused colony designations and districts for habitats and ringworlds.
 
 [h3]When to Install[/h3]
-
 This mod can be safely added to your savegame after the game has started.  Because it adds a new district for planets, it is not advisable to remove during gameplay.  Back up your savegame before trying to remove a mod.
 
 [h3]Known Issues[/h3]
-
 Overwriting a colony type produces an error log.  Expect to see one entry in error.log similar to this:
 [code]
 [00:28:40][game_singleobjectdatabase.h:147]: Object with key: col_ecu_mix already exists
 [/code]
 [h2]Changelog[/h2]
-
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2597129991]Change Notes[/url]
 
 [h2]Source Code[/h2]
-
 Hosted on [url=https://github.com/corsairmarks/ecumenopolis_trade]GitHub[/url]
 
 [url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]

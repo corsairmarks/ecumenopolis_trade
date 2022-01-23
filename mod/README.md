@@ -6,6 +6,10 @@ Because Stellaris version 3.1 added the +20% trade value boost to the base Ecume
 
 Commercial Arcologies provide more Merchant jobs and fewer Clerk jobs as long as the colony designation remains Ecumenopolis Commercial.  But wait, there's more!  Empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's [i]even[/i] more!  Megacorps replace some Clerks with Executives and Managers.  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants, Executives, and Managers.
 
+## Update for Stellaris 3.3 "Libra"
+
+With the introduction of Administrative Arcologies (and Ecclesiastical Arcologies) in Stellaris version 3.3 "Libra," it is no longer possible to view Commercial Arcologies without a planetview-enhancing UI mod.  See below for three recommendations.  Because of this, it has also been removed from my modpack Subtle Polish.
+
 # Changes
 
 Adds the `col_ecu_trade` colony type and a new district `district_arcology_commercial`.  Overrides the `col_ecu_mix` colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output) so as to not conflict (mechanics-wise) with the new `col_ecu_trade` type.
@@ -20,7 +24,15 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
 
-Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.3.* "Libra."  Not compatible with achievements.
+
+### Removed from "Subtle Polish"
+
+This mod has been removed from my modpack [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) because as of Stellaris version 3.3 "Libra" it requires users to add a UI mod in order to see the expanded districts.  It it otherwise fully compatible.
+
+### Required Dependency Mods
+
+In order to see and interact with the new commercial arcology district, it is necessary to use a UI mod that allows more districts to be visible.  [UI Overhaul Dynamic](https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360) and [Bigger Planet View](https://steamcommunity.com/sharedfiles/filedetails/?id=1587178040) are two possible options.  If you play Stellaris on a lower resolution (such as 1366x768 or 1600x900) there are not many mod offerings that show many districts without making the planetview too large, so I created [Basic Planetview: More Districts](https://steamcommunity.com/sharedfiles/filedetails/?id=2654043078) to solve that issue.
 
 ### Recommended Companion Mods
 
@@ -53,10 +65,11 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
     * Commercial Arcologies also grant +3 Clerk jobs with the tradition "Interstellar Franchising"
 * 2.4.1 Improved colony automation plan
 * 2.4.2 Adjust colony designation weighting
-* 2.5.0 Updated for Stellaris 3.2 "Herbert" - no changes
+* 2.5.0 Updated for Stellaris version 3.2 "Herbert" - no changes
 * 2.6.0 Add Commercial Arcologies to Planetary Diversity's Palace and Corporate Ecumenopoleis
     * Special thanks to Gatzek for help with the correct special `district_set`s
     * Add Polish localisation by Gatzek
+* 3.0.0 Update for Stellaris version 3.3 "Libra" - use new triggers, add README/description notes about now requiring a UI mod
 
 ## Source Code
 
