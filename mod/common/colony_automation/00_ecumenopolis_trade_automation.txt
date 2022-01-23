@@ -60,7 +60,7 @@ automate_ecumenopolis_commercial_planet = {
 		8 = {
 			building = building_galactic_memorial_1
 			available = {
-				owner = { has_valid_civic = civic_memorialist }
+				owner = { is_memorialist_empire = yes }
 				NOR = {
 					has_building = building_galactic_memorial_1
 					has_building = building_galactic_memorial_2
@@ -71,12 +71,12 @@ automate_ecumenopolis_commercial_planet = {
 
 		9 = {
 			building = building_dread_encampment
-			available = { owner = { has_valid_civic = civic_reanimated_armies } }
+			available = { owner = { is_reanimator = yes } }
 		}
 
 		10 = {
 			building = building_military_academy
-			available = { owner = { NOT = { has_valid_civic = civic_reanimated_armies } } }
+			available = { owner = { is_reanimator = no }
 		}
 
 		11 = {
