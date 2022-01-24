@@ -76,7 +76,13 @@ automate_ecumenopolis_commercial_planet = {
 
 		10 = {
 			building = building_military_academy
-			available = { owner = { is_reanimator = no }
+			available = {
+				owner = {
+					is_reanimator = no
+					# as of 3.1.2 AI has a destroy_trigger for this building
+					is_ai = no
+				}
+			}
 		}
 
 		11 = {
