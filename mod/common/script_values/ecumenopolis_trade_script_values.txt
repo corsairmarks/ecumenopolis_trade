@@ -1,0 +1,31 @@
+# this = planet
+et_commercial_colony_bonus_trade = {
+	base = 0
+	modifier = {
+		add = 4
+		solar_system = { has_trade_route = yes }
+	}
+	modifier = {
+		add = 4
+		exists = starbase
+		starbase = { has_starbase_building = offworld_trading_company }
+	}
+	modifier = {
+		add = 4
+		exists = starbase
+		starbase = { has_starbase_building = trader_proxy_office }
+	}
+	modifier = {
+		add = 2
+		exists = starbase
+		starbase = { has_starbase_building = transit_hub }
+	}
+	complex_trigger_modifier = {
+		trigger = count_starbase_modules
+		trigger_scope = starbase
+		parameters = {
+			type = trading_hub
+		}
+		mode = add
+	}
+}
