@@ -23,10 +23,10 @@ Practically any mod, as long as it doesn't entirely remove ecumenopoleis or crea
 Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
 
 [h3]Removed from "Subtle Polish"[/h3]
-This mod has been removed from my modpack [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) because as of Stellaris version 3.3 "Libra" it requires users to add a UI mod in order to see the expanded districts.  It it otherwise fully compatible.
+This mod has been removed from my modpack [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] because as of Stellaris version 3.3 "Libra" it requires users to add a UI mod in order to see the expanded districts.  It it otherwise fully compatible.
 
 [h3]Required Dependency Mods[/h3]
-In order to see and interact with the new commercial arcology district, it is necessary to use a UI mod that allows more districts to be visible.  [UI Overhaul Dynamic](https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360) and [Bigger Planet View](https://steamcommunity.com/sharedfiles/filedetails/?id=1587178040) are two possible options.  If you play Stellaris on a lower resolution (such as 1366x768 or 1600x900) there are not many mod offerings that show many districts without making the planetview too large, so I created [Basic Planetview: More Districts](https://steamcommunity.com/sharedfiles/filedetails/?id=2654043078) to solve that issue.
+In order to see and interact with the new commercial arcology district, it is necessary to use a UI mod that allows more districts to be visible.  [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360]UI Overhaul Dynamic[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1587178040]Bigger Planet View[/url] are two possible options.  If you play Stellaris on a lower resolution (such as 1366x768 or 1600x900) there are not many mod offerings that show many districts without making the planetview too large, so I created [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2654043078]Basic Planetview: More Districts[/url] to solve that issue.
 
 [h3]Recommended Companion Mods[/h3]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2641081470]Enhanced Trade Districts and Designations[/url] to upgrade the trade-focused colony designations and districts for habitats and ringworlds.
