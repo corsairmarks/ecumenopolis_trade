@@ -8,7 +8,7 @@ But wait, there's more!  Empires with the Merchant Guilds civic will find that m
 
 ## Update for Stellaris 3.3 "Libra"
 
-With the introduction of Administrative Arcologies (and Ecclesiastical Arcologies) in Stellaris version 3.3 "Libra," it is no longer possible to view Commercial Arcologies without a planetview-enhancing UI mod.  See below for three recommendations.  Because of this, it has also been removed from my modpack Subtle Polish.
+With the introduction of Administrative Arcologies (and Ecclesiastical Arcologies) in Stellaris version 3.3 "Libra," it is no longer possible to view Commercial Arcologies without a planetview-enhancing UI mod.  See below for three recommendations.
 
 # Changes
 
@@ -25,10 +25,6 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
 
 Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
-
-### Removed from "Subtle Polish"
-
-This mod has been removed from my modpack [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) because as of Stellaris version 3.3 "Libra" it requires users to add a UI mod in order to see the expanded districts.  It it otherwise fully compatible.
 
 ### Required Dependency Mods
 
