@@ -69,6 +69,7 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
     * Use new triggers
     * Add README/description notes about now requiring a UI mod
     * Allow building Commercial Arcologies on any ecumenopolis
+* 3.0.1 Add global flag to indicate that this mod is installed
 
 ## Source Code
 
