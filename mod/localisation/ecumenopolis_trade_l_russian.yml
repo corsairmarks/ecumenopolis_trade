@@ -1,6 +1,6 @@
 ﻿l_russian:
  col_ecu_trade: "Коммерческий Экуменополис"
- col_ecu_trade_desc: "Огромный город-планета, который специализируется на непрерывном обмене товаров и благ, а также на работе с финансовыми инструментами\n\nПозволяет строить §Y$district_arcology_commercial_plural$§!"
+ col_ecu_trade_desc: "Огромный город-планета, который специализируется на непрерывном обмене товаров и благ, а также на работе с финансовыми инструментами\n\nУлучшает эффекты §Y$district_arcology_commercial_plural$§!"
  mod_planet_built_speed_mult_suffix: "Скорость строительства"
  mod_planet_district_arcology_commercial_build_speed_mult: "$district_arcology_commercial$ $mod_planet_built_speed_mult_suffix$"
  mod_planet_building_commercial_zone_build_speed_mult: "$building_commercial_zone$ $mod_planet_built_speed_mult_suffix$"
