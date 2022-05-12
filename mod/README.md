@@ -39,7 +39,7 @@ This mod can be safely added to your savegame after the game has started.  Becau
 Overwriting a colony type produces an error log.  Expect to see one entry in error.log similar to this:
 
 ```
-[00:28:40][game_singleobjectdatabase.h:147]: Object with key: col_ecu_mix already exists
+[00:40:30][game_singleobjectdatabase.h:148]: Object with key: col_ecu_mix already exists, using the one at  file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
 ```
 
 ## Changelog
