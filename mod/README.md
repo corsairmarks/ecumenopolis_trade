@@ -6,13 +6,9 @@ Because Stellaris version 3.1 added a +20% trade value boost to the base Ecumeno
 
 But wait, there's more!  Empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's _even_ more!  MegaCorps replace some Clerks with Executives and Managers.  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants, Executives, and Managers.
 
-## Update for Stellaris 3.3 "Libra"
-
-With the introduction of Administrative Arcologies (and Ecclesiastical Arcologies) in Stellaris version 3.3 "Libra," it is no longer possible to view Commercial Arcologies without a planetview-enhancing UI mod.  See below for three recommendations.
-
 # Changes
 
-Adds the `col_ecu_trade` colony type and a new district `district_arcology_commercial`.  Overrides the `col_ecu_mix` colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output) so as to not conflict (mechanics-wise) with the new `col_ecu_trade` type.
+Adds the `col_ecu_trade` colony type and a new district `district_arcology_commercial`.  Overrides the `col_ecu_mix` colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output) so as to not conflict (mechanics-wise) with the new `col_ecu_trade` type.  Overwrites trade colony automation `automate_trade_planet` in order to include `col_ecu_trade` and exclude `col_ecu_mix`.
 
 ## Localisation
 
@@ -24,7 +20,7 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
 
-Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
+Built for Stellaris version 3.4 "Cepheus."  Not compatible with achievements.
 
 ### Required Dependency Mods
 
@@ -70,6 +66,12 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
     * Add README/description notes about now requiring a UI mod
     * Allow building Commercial Arcologies on any ecumenopolis
 * 3.0.1 Add global flag to indicate that this mod is installed
+* 4.0.0 Update for Stellaris version 3.4 "Cepheus"
+    * Fix inaccurate description for the Ecumenopolis Commercial designation - it improves Commercial Arcologies, rather than enabling their construction (mechanics change in mod version 3.0.0)
+    * Better code for the Ecumenopolis Commercial designation
+    * Use memory optimization feature for an effect
+    * Replace old automation with an enhanced version of the new trade colony plan
+    * Add automation plans for the `col_ecu_mix` colony type, because this mod removes the trade bonuses and removes it from the trade automation plan
 
 ## Source Code
 

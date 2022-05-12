@@ -1,10 +1,13 @@
 name="Colony Designation: Ecumenopolis Commercial"
+dependencies={
+	"Enhanced Trade Districts and Designations"
+}
 tags={
 	"Buildings"
 	"Economy"
 	"Gameplay"
 }
-version="3.0.1"
+version="4.0.0"
 picture="thumbnail.png"
-supported_version="3.3.*"
+supported_version="3.4.*"
 remote_file_id="2597129991"
