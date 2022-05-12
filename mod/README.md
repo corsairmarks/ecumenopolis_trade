@@ -69,7 +69,7 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
 * 4.0.0 Update for Stellaris version 3.4 "Cepheus"
     * Fix inaccurate description for the Ecumenopolis Commercial designation - it improves Commercial Arcologies, rather than enabling their construction (mechanics change in mod version 3.0.0)
     * Better code for the Ecumenopolis Commercial designation
-    * Use memory optimization feature for an effect
+    * Use memory optimization feature for a trigger
     * Replace old automation with an enhanced version of the new trade colony plan
     * Add automation plans for the `col_ecu_mix` colony type, because this mod removes the trade bonuses and removes it from the trade automation plan
 
