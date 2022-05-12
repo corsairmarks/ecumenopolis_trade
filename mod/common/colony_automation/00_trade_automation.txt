@@ -1,7 +1,6 @@
 # Modified: added the Numistic Shrine, added affordability checks, swapped col_ecu_mix for col_ecu_trade
 automate_trade_planet = {
 	category = "planet_automation_designation_construction"
-
 	available = {
 		OR = {
 			has_designation = col_city
@@ -10,14 +9,12 @@ automate_trade_planet = {
 			has_designation = col_ecu_trade
 		}
 	}
-
 	prio_districts = {
 		district_rw_commercial
 		district_hab_commercial
 		district_srw_commercial
 		district_arcology_commercial
 	}
-
 	buildings = {
 		1 = {
 			building = building_capital
