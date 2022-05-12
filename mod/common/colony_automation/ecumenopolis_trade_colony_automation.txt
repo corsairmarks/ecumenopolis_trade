@@ -1,7 +1,6 @@
 # new automation plans for col_ecu_mix because the trade automation plan no longer applies
 automate_ecu_mix_planet = {
 	category = "planet_automation_designation_construction"
-	
 	available = {
 		has_designation = col_ecu_mix
 		exists = owner
@@ -10,7 +9,6 @@ automate_ecu_mix_planet = {
 			is_machine_empire = no
 		}
 	}
-
 	prio_districts = {
 		district_arcology_arms_industry
 		district_arcology_civilian_industry
@@ -18,7 +16,6 @@ automate_ecu_mix_planet = {
 		district_arcology_administrative
 		district_arcology_religious
 	}
-
 	buildings = {
 		1 = {
 			building = building_capital
@@ -55,7 +52,7 @@ automate_ecu_mix_planet = {
 			}
 		}
 
-		7 = {
+		6 = {
 			building = building_corporate_monument
 			available = {
 				num_districts = {
@@ -70,7 +67,7 @@ automate_ecu_mix_planet = {
 			}
 		}
 
-		8 = {
+		6 = {
 			building = building_galactic_memorial_1
 			available = {
 				OR = {
@@ -88,7 +85,7 @@ automate_ecu_mix_planet = {
 			}
 		}
 
-		9 = {
+		7 = {
 			building = building_autocurating_vault
 			available = {
 				num_districts = {
@@ -103,7 +100,7 @@ automate_ecu_mix_planet = {
 			}
 		}
 
-		10 = {
+		7 = {
 			building = building_corporate_vault
 			available = {
 				num_districts = {
@@ -118,7 +115,7 @@ automate_ecu_mix_planet = {
 			}
 		}
 
-		11 = {
+		7 = {
 			building = building_citadel_of_faith
 			available = {
 				num_districts = {
@@ -130,7 +127,7 @@ automate_ecu_mix_planet = {
 			}
 		}
 
-		12 = {
+		8 = {
 			building = building_institute
 		}
 	}
@@ -180,6 +177,7 @@ automate_ecu_mix_machine_planet = {
 	prio_districts = {
 		district_arcology_arms_industry
 		district_arcology_civilian_industry
+		district_arcology_organic_housing
 	}
 
 	buildings = {
