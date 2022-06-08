@@ -2,11 +2,7 @@
 col_ecu_trade = {
 	icon = GFX_colony_type_ecu_trade
 	potential = {
-		OR = {
-			uses_district_set = city_world
-			uses_district_set = pdecocity
-			uses_district_set = pdcorpoarc
-		}
+		et_uses_district_set_city_world = yes
 		can_generate_trade_value = yes
 		exists = owner
 		owner = {

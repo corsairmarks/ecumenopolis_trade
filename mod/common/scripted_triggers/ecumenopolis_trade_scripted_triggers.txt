@@ -10,3 +10,12 @@ et_uses_planetary_diversity_arcology_district_set = {
 		uses_district_set = pdmachinecapital
 	}
 }
+
+# this = planet
+et_uses_district_set_city_world = {
+	optimize_memory
+	OR = {
+		uses_district_set = city_world
+		et_uses_planetary_diversity_arcology_district_set = yes
+	}
+}
