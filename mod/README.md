@@ -75,6 +75,7 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
 * 4.1.0 Balance update - reduce the overwhelming **Trade Power™** generated for minimal effort and also simplify triggered job swaps
     * Reduce the amount of free MegaCorp job swaps; post-unity-rework they are much more powerful than in the past
     * Simplify Merchant jobs swaps - things got a little out of hand
+    * Add custom description to the commercial district, describing the job shifts
 
 ## Source Code
 
