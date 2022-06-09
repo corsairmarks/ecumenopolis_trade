@@ -4,7 +4,7 @@ Tired of your city-planets not being top-tier trading hubs? Then this mod is for
 
 Because Stellaris version 3.1 added a +20% trade value boost to the base Ecumenopolis colony designation, I went back to the drawing board to double down on the theme of a commercial megacity.  That lead to the creation of the new "Commercial Arcology" district which provides Merchant and Clerk jobs.  Choosing to use the Ecumenopolis Commercial colony designation also swaps some Clerk jobs into Merchant jobs from each Commercial Arcology, and can provide small amounts of bonus trade if you meet varying hidden, trade-related conditions - see if you can figure them out.
 
-But wait, there's more!  MegaCorps and empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's _even_ more!  MegaCorps replace a Clerk with a Manager and a Merchant with an Executive (all those Clerks need bossing around).  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants!
+But wait, there's more!  Empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's _even_ more!  MegaCorps replace a Clerk with a Manager and a Merchant with an Executive (all those Clerks need bossing around).  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants!
 
 # Changes
 
