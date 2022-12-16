@@ -6,7 +6,7 @@ Because Stellaris version 3.1 added a +20% trade value boost to the base Ecumeno
 But wait, there's more!  Empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's [i]even[/i] more!  MegaCorps replace a Clerk with a Manager and a Merchant with an Executive (all those Clerks need bossing around).  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants!
 
 [h1]Changes[/h1]
-Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcology_commercial[/b].  Overrides the [b]col_ecu_mix[/b] colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output) so as to not conflict (mechanics-wise) with the new [b]col_ecu_trade[/b] type.  Overwrites trade colony automation [b]automate_trade_planet[/b] in order to include [b]col_ecu_trade[/b] and exclude [b]col_ecu_mix[/b].
+Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcology_commercial[/b].  Overrides the [b]col_ecu_mix[/b] colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output, +5% Pop growth/assembly) so as to not conflict (mechanics-wise) with the new [b]col_ecu_trade[/b] type.  Overwrites trade colony automation [b]automate_trade_planet[/b] in order to include [b]col_ecu_trade[/b] and exclude [b]col_ecu_mix[/b].
 
 [h2]Localisation[/h2]
 [list]
@@ -29,9 +29,10 @@ In order to see and interact with the new commercial arcology district, it is ne
 This mod can be safely added to your savegame after the game has started.  Because it adds a new district for planets, it is not advisable to remove during gameplay.  Back up your savegame before trying to remove a mod.
 
 [h3]Known Issues[/h3]
-Overwriting a colony type produces an error log.  Expect to see one entry in error.log similar to this:
+Overwriting a colony type produces an error log.  Expect to see two entries in error.log similar to these:
 [code]
-[00:40:30][game_singleobjectdatabase.h:165]: Object with key: col_ecu_mix already exists, using the one at  file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
+[23:10:05][game_singleobjectdatabase.h:165]: Object with key: col_ecu_mix already exists, using the one at  file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
+[23:10:09][game_singleobjectdatabase.h:165]: Object with key: has_trade_designation already exists, using the one at  file: common/scripted_triggers/10_ecumenopolis_trade_scripted_triggers_ai_overrides.txt line: 2
 [/code]
 [h2]Changelog[/h2]
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2597129991]Change Notes[/url]

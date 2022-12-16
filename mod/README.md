@@ -8,7 +8,7 @@ But wait, there's more!  Empires with the Merchant Guilds civic will find that m
 
 # Changes
 
-Adds the `col_ecu_trade` colony type and a new district `district_arcology_commercial`.  Overrides the `col_ecu_mix` colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output) so as to not conflict (mechanics-wise) with the new `col_ecu_trade` type.  Overwrites trade colony automation `automate_trade_planet` in order to include `col_ecu_trade` and exclude `col_ecu_mix`.
+Adds the `col_ecu_trade` colony type and a new district `district_arcology_commercial`.  Overrides the `col_ecu_mix` colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output, +5% Pop growth/assembly) so as to not conflict (mechanics-wise) with the new `col_ecu_trade` type.  Overwrites trade colony automation `automate_trade_planet` in order to include `col_ecu_trade` and exclude `col_ecu_mix`.
 
 ## Localisation
 
@@ -20,7 +20,7 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
 
-Built for Stellaris version 3.4 "Cepheus."  Not compatible with achievements.
+Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
 
 ### Required Dependency Mods
 
@@ -36,10 +36,11 @@ This mod can be safely added to your savegame after the game has started.  Becau
 
 ### Known Issues
 
-Overwriting a colony type produces an error log.  Expect to see one entry in error.log similar to this:
+Overwriting a colony type produces an error log.  Expect to see two entries in error.log similar to these:
 
 ```
-[00:40:30][game_singleobjectdatabase.h:165]: Object with key: col_ecu_mix already exists, using the one at  file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
+[23:10:05][game_singleobjectdatabase.h:165]: Object with key: col_ecu_mix already exists, using the one at  file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
+[23:10:09][game_singleobjectdatabase.h:165]: Object with key: has_trade_designation already exists, using the one at  file: common/scripted_triggers/10_ecumenopolis_trade_scripted_triggers_ai_overrides.txt line: 2
 ```
 
 ## Changelog
@@ -79,6 +80,7 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
 * 5.0.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
     * Bonus Clerk jobs are now tied to the tradition Trickle Up Economics instead of Interstellar Franchising (from underlying game changes)
     * Add override of new built-in trigger `has_trade_designation`, consume it for trade colony automation
+    * Trade planet automation cooperates with my other trade-related district mods
 
 ## Source Code
 
