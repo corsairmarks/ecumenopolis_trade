@@ -39,7 +39,7 @@ This mod can be safely added to your savegame after the game has started.  Becau
 Overwriting a colony type produces an error log.  Expect to see one entry in error.log similar to this:
 
 ```
-[00:40:30][game_singleobjectdatabase.h:148]: Object with key: col_ecu_mix already exists, using the one at  file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
+[00:40:30][game_singleobjectdatabase.h:165]: Object with key: col_ecu_mix already exists, using the one at  file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
 ```
 
 ## Changelog
@@ -76,6 +76,9 @@ Overwriting a colony type produces an error log.  Expect to see one entry in err
     * Reduce the amount of free MegaCorp job swaps; post-unity-rework they are much more powerful than in the past
     * Simplify Merchant jobs swaps - things got a little out of hand
     * Add custom description to the commercial district, describing the job shifts
+* 5.0.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
+    * Bonus Clerk jobs are now tied to the tradition Trickle Up Economics instead of Interstellar Franchising (from underlying game changes)
+    * Add override of new built-in trigger `has_trade_designation`, consume it for trade colony automation
 
 ## Source Code
 
