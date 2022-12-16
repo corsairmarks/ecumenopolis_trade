@@ -1,4 +1,4 @@
-# Modified: added the Numistic Shrine, added affordability checks, added district_arcology_commercial
+# Modified: added the Numistic Shrine, added affordability checks, account for my added trade districts
 automate_trade_planet = {
 	category = "planet_automation_designation_construction"
 	available = {
@@ -9,6 +9,7 @@ automate_trade_planet = {
 		district_hab_commercial
 		district_srw_commercial
 		district_arcology_commercial
+		district_standard_cm_commercial
 	}
 	buildings = {
 		1 = {
