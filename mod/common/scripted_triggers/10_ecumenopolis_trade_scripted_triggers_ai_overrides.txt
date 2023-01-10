@@ -7,11 +7,11 @@ has_trade_designation = {
 		has_designation = col_ring_trade
 		has_designation = col_ecu_trade
 		AND = {
-			has_global_flag = more_standard_districts_installed
+			has_more_standard_districts_active = yes
 			has_designation = col_standard_cm_trade
 		}
 		AND = {
-			has_global_flag = trade_district_enhancements_installed
+			has_trade_district_enhancements_active = yes
 			has_designation = col_srw_trade
 		}
 	}
