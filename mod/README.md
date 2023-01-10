@@ -81,6 +81,10 @@ Overwriting a colony type produces an error log.  Expect to see two entries in e
     * Bonus Clerk jobs are now tied to the tradition Trickle Up Economics instead of Interstellar Franchising (from underlying game changes)
     * Add override of new built-in trigger `has_trade_designation`, consume it for trade colony automation
     * Trade planet automation cooperates with my other trade-related district mods
+* 6.0.0 Compatibility triggers
+    * Add a compatibility trigger for other mods to check whether this one is active
+    * Consume the compatibility trigger from another mod
+    * Remove old compatibility global flag
 
 ## Source Code
 
