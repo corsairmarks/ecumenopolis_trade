@@ -22,6 +22,10 @@ Practically any mod, as long as it doesn't entirely remove ecumenopoleis or crea
 
 Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
 
+### When to Install
+
+This mod can be safely added to your savegame after the game has started.  Because it adds a new district for planets, it is not advisable to remove during gameplay.  Back up your savegame before trying to remove a mod.
+
 ### Required Dependency Mods
 
 In order to see and interact with the new commercial arcology district, it is necessary to use a UI mod that allows more districts to be visible.  [UI Overhaul Dynamic](https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360) and [Bigger Planet View](https://steamcommunity.com/sharedfiles/filedetails/?id=1587178040) are two possible options.  If you play Stellaris on a lower resolution (such as 1366x768 or 1600x900) there are not many mod offerings that show many districts without making the planetview too large, so I created [Basic Planetview: More Districts](https://steamcommunity.com/sharedfiles/filedetails/?id=2654043078) to solve that issue.
@@ -30,11 +34,7 @@ In order to see and interact with the new commercial arcology district, it is ne
 
 [Enhanced Trade Districts and Designations](https://steamcommunity.com/sharedfiles/filedetails/?id=2641081470) to upgrade the trade-focused colony designations and districts for habitats and ringworlds.
 
-### When to Install
-
-This mod can be safely added to your savegame after the game has started.  Because it adds a new district for planets, it is not advisable to remove during gameplay.  Back up your savegame before trying to remove a mod.
-
-### Known Issues
+## Known Issues
 
 Overwriting a colony type produces an error log.  Expect to see two entries in error.log similar to these:
 
