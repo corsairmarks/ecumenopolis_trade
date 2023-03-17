@@ -20,7 +20,7 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
 
-Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
+Built for Stellaris version 3.7 "Canis Minor."  Not compatible with achievements.
 
 ### When to Install
 
@@ -85,6 +85,7 @@ Overwriting a colony type produces an error log.  Expect to see two entries in e
     * Add a compatibility trigger for other mods to check whether this one is active
     * Consume the compatibility trigger from another mod
     * Remove old compatibility global flag
+* 7.0.0 Update for Stellaris version 3.7 "Canis Minor" - update based on underlying district changes
 
 ## Source Code
 
