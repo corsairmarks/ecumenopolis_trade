@@ -1,3 +1,5 @@
+# Irony this is a placeholder file please ignore it
+
 # supports features from my mod More Standard Districts
 # this = any
 has_more_standard_districts_active = {
