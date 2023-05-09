@@ -86,6 +86,9 @@ Overwriting a colony type produces an error log.  Expect to see two entries in e
     * Consume the compatibility trigger from another mod
     * Remove old compatibility global flag
 * 7.0.0 Update for Stellaris version 3.7 "Canis Minor" - update based on underlying district changes
+* 8.0.0 Update for Stellaris version 3.8 "Gemini"
+    * Integrate underlying game changes
+    * Account for the new "Trade Capital" colony designation
 
 ## Source Code
 
