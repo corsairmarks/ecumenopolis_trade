@@ -12,6 +12,7 @@ col_ecu_trade = {
 			exists = owner
 			owner = { is_gestalt = yes }
 		}
+		is_capital = no
 	}
 	custom_tooltip = col_ecu_trade_custom
 	planet_modifier = {
