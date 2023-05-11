@@ -20,7 +20,7 @@ Adds the `col_ecu_trade` colony type and a new district `district_arcology_comme
 
 Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
 
-Built for Stellaris version 3.7 "Canis Minor."  Not compatible with achievements.
+Built for Stellaris version 3.8 "Gemini."  Not compatible with achievements.
 
 ### When to Install
 
@@ -32,7 +32,8 @@ In order to see and interact with the new commercial arcology district, it is ne
 
 ### Recommended Companion Mods
 
-[Enhanced Trade Districts and Designations](https://steamcommunity.com/sharedfiles/filedetails/?id=2641081470) to upgrade the trade-focused colony designations and districts for habitats and ringworlds.
+* [Enhanced Trade Districts and Designations](https://steamcommunity.com/sharedfiles/filedetails/?id=2641081470) to upgrade the trade-focused colony designations and districts for habitats and ringworlds
+* [Specialist Subject: Mercatorum](https://steamcommunity.com/sharedfiles/filedetails/?id=2962066593) add a trade-focused specialist subject - who better to make use of the "Ecumenopolis Commercial" designation?
 
 ## Known Issues
 

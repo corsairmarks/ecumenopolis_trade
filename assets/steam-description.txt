@@ -1,12 +1,12 @@
 [h1]Overview[/h1]
-Tired of your city-planets not being top-tier trading hubs? Then this mod is for you! This mod adds an "Ecumenopolis Commercial" colony designation that boosts the build-speed of commercial buildings and commercial arcologies by 25% and overall trade value by 20%.  That is the same trade value boost as Urban Worlds, Trade Stations, and Commercial Ring Worlds.
+Tired of your city-planets not being top-tier trading hubs? Then this mod is for you! This mod adds an "Ecumenopolis Commercial" colony designation that boosts the build-speed of commercial buildings and commercial arcologies by 25% and overall trade value by 20%. That is the same trade value boost as Urban Worlds, Trade Stations, and Commercial Ring Worlds.
 
-Because Stellaris version 3.1 added a +20% trade value boost to the base Ecumenopolis colony designation, I went back to the drawing board to double down on the theme of a commercial megacity.  That lead to the creation of the new "Commercial Arcology" district which provides Merchant and Clerk jobs.  Choosing to use the Ecumenopolis Commercial colony designation also swaps some Clerk jobs into Merchant jobs from each Commercial Arcology, and can provide small amounts of bonus trade if you meet varying hidden, trade-related conditions - see if you can figure them out.
+Because Stellaris version 3.1 added a +20% trade value boost to the base Ecumenopolis colony designation, I went back to the drawing board to double down on the theme of a commercial megacity. That lead to the creation of the new "Commercial Arcology" district which provides Merchant and Clerk jobs. Choosing to use the Ecumenopolis Commercial colony designation also swaps some Clerk jobs into Merchant jobs from each Commercial Arcology, and can provide small amounts of bonus trade if you meet varying hidden, trade-related conditions - see if you can figure them out.
 
-But wait, there's more!  Empires with the Merchant Guilds civic will find that more Merchants replace Clerks.  But wait, there's [i]even[/i] more!  MegaCorps replace a Clerk with a Manager and another Clerk with an Executive (all those Clerks need bossing around).  And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants!
+But wait, there's more! Empires with the Merchant Guilds civic will find that more Merchants replace Clerks. But wait, there's [i]even[/i] more! MegaCorps replace a Clerk with a Manager and another Clerk with an Executive (all those Clerks need bossing around). And if that wasn't enough, we'll throw in positive interaction with the "Commercial Enterprise" tradition for even more Merchants!
 
 [h1]Changes[/h1]
-Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcology_commercial[/b].  Overrides the [b]col_ecu_mix[/b] colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output, +5% Pop growth/assembly) so as to not conflict (mechanics-wise) with the new [b]col_ecu_trade[/b] type.  Overwrites trade colony automation [b]automate_trade_planet[/b] in order to include [b]col_ecu_trade[/b] and exclude [b]col_ecu_mix[/b].
+Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcology_commercial[/b]. Overrides the [b]col_ecu_mix[/b] colony type to match the bonuses for the default mixed ringworld (+20% immigration pull, +5% jobs output, +5% Pop growth/assembly) so as to not conflict (mechanics-wise) with the new [b]col_ecu_trade[/b] type. Overwrites trade colony automation [b]automate_trade_planet[/b] in order to include [b]col_ecu_trade[/b] and exclude [b]col_ecu_mix[/b].
 
 [h2]Localisation[/h2]
 [list]
@@ -15,24 +15,26 @@ Adds the [b]col_ecu_trade[/b] colony type and a new district [b]district_arcolog
 [*]Russian (Русский) by [url=https://steamcommunity.com/id/0418282]NCTribit[/url]
 [/list]
 [h2]Compatibility[/h2]
-Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types.  Compatible with Planetary Diversity.
+Practically any mod, as long as it doesn't entirely remove ecumenopoleis or create/edit the same colony types. Compatible with Planetary Diversity.
 
-Built for Stellaris version 3.8 "Gemini."  Not compatible with achievements.
+Built for Stellaris version 3.8 "Gemini." Not compatible with achievements.
 
 [h3]When to Install[/h3]
-This mod can be safely added to your savegame after the game has started.  Because it adds a new district for planets, it is not advisable to remove during gameplay.  Back up your savegame before trying to remove a mod.
+This mod can be safely added to your savegame after the game has started. Because it adds a new district for planets, it is not advisable to remove during gameplay. Back up your savegame before trying to remove a mod.
 
 [h3]Required Dependency Mods[/h3]
-In order to see and interact with the new commercial arcology district, it is necessary to use a UI mod that allows more districts to be visible.  [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360]UI Overhaul Dynamic[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1587178040]Bigger Planet View[/url] are two possible options.  If you play Stellaris on a lower resolution (such as 1366x768 or 1600x900) there are not many mod offerings that show many districts without making the planetview too large, so I created [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2654043078]Basic Planetview: More Districts[/url] to solve that issue.
+In order to see and interact with the new commercial arcology district, it is necessary to use a UI mod that allows more districts to be visible. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1623423360]UI Overhaul Dynamic[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1587178040]Bigger Planet View[/url] are two possible options. If you play Stellaris on a lower resolution (such as 1366x768 or 1600x900) there are not many mod offerings that show many districts without making the planetview too large, so I created [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2654043078]Basic Planetview: More Districts[/url] to solve that issue.
 
 [h3]Recommended Companion Mods[/h3]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2641081470]Enhanced Trade Districts and Designations[/url] to upgrade the trade-focused colony designations and districts for habitats and ringworlds.
-
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2641081470]Enhanced Trade Districts and Designations[/url] to upgrade the trade-focused colony designations and districts for habitats and ringworlds
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962066593]Specialist Subject: Mercatorum[/url] add a trade-focused specialist subject - who better to make use of the "Ecumenopolis Commercial" designation?
+[/list]
 [h2]Known Issues[/h2]
-Overwriting a colony type produces an error log.  Expect to see two entries in error.log similar to these:
+Overwriting a colony type produces an error log. Expect to see two entries in error.log similar to these:
 [code]
-[23:10:05][game_singleobjectdatabase.h:165]: Object with key: col_ecu_mix already exists, using the one at  file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
-[23:10:09][game_singleobjectdatabase.h:165]: Object with key: has_trade_designation already exists, using the one at  file: common/scripted_triggers/10_ecumenopolis_trade_scripted_triggers_ai_overrides.txt line: 2
+[23:10:05][game_singleobjectdatabase.h:165]: Object with key: col_ecu_mix already exists, using the one at file: common/colony_types/01_ecumenopolis_trade_colony_types_overrides.txt line: 2
+[23:10:09][game_singleobjectdatabase.h:165]: Object with key: has_trade_designation already exists, using the one at file: common/scripted_triggers/10_ecumenopolis_trade_scripted_triggers_ai_overrides.txt line: 2
 [/code]
 [h2]Changelog[/h2]
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2597129991]Change Notes[/url]
